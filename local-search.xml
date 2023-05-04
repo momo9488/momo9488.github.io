@@ -4,6 +4,45 @@
   
   
   <entry>
+    <title>柜内灯小程序</title>
+    <link href="/2023/04/29/%E6%9F%9C%E5%86%85%E7%81%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <url>/2023/04/29/%E6%9F%9C%E5%86%85%E7%81%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
+    
+    <content type="html"><![CDATA[<h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs dns"><span class="hljs-number">1</span>、小程序代码位置：E:\小程序物联网开发\wx_demo\demo<br><span class="hljs-number">2</span>、运行虚拟设备：E:\小程序物联网开发\tencentcloud_iot_device_demo-windows-<span class="hljs-number">20230426</span>-<span class="hljs-number">2</span>a646b47cc8f42a5a7b8112c<span class="hljs-number">5f071350</span>\<span class="hljs-number">20230426</span>-<span class="hljs-number">2</span>a646b47cc8f42a5a7b8112c<span class="hljs-number">5f071350</span>\tencentcloud_iot_device_demo-windows<br>   运行run.bat就会开启设备虚拟<br></code></pre></td></tr></table></figure><h3 id="小程序运行方法"><a href="#小程序运行方法" class="headerlink" title="小程序运行方法"></a>小程序运行方法</h3><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ada"><span class="hljs-number">1</span>、云函数每次修改，都需要在该函数右键选择<span class="hljs-comment">--》上传并部署（不上传node_module）</span><br><span class="hljs-number">2</span>、<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Charles抓包</title>
+    <link href="/2023/04/18/Charles%E6%8A%93%E5%8C%85/"/>
+    <url>/2023/04/18/Charles%E6%8A%93%E5%8C%85/</url>
+    
+    <content type="html"><![CDATA[<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p>Charles下载地址：<a href="https://www.charlesproxy.com/latest-release/download.do">https://www.charlesproxy.com/latest-release/download.do</a><br>下载解压，即可安装成功</p><h3 id="APP抓包"><a href="#APP抓包" class="headerlink" title="APP抓包"></a>APP抓包</h3><h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><figure class="highlight nestedtext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs nestedtext"><span class="hljs-bullet">-</span> <span class="hljs-string">1、点击顶部菜单栏【Help】–&gt;选择【SSL Proxying】，点击【install Charles Root Certificate 】安装Charles根证书即可；</span><br>  证书安装一直下一步就可以。<br><span class="hljs-bullet">-</span> <span class="hljs-string">2、点击【Proxy】–&gt;【SSL Proxying Settings…】</span><br><span class="hljs-bullet">-</span> <span class="hljs-string">3、在弹出选项卡中，勾选【Enable SSL Proxying】点击【add】。</span><br><span class="hljs-bullet">-</span> <span class="hljs-string">在Host输入【*】表示接收任何主机，在Prot输入【443】最后点击【ok】保存****</span><br><span class="hljs-bullet">-</span> <span class="hljs-string">4、点击【proxy】，取消选中window proxy</span><br><span class="hljs-bullet">-</span> <span class="hljs-string">5、证书导入手机中</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">1、点击顶部菜单栏【Help】–&gt;选择【SSL Proxying】，点击【save Charles Root Certificate】安装Charles根证书即可。保存文件类型选择cer保存，文件名随便（例如123），然后传到手机上； </span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">2、手机打开设置-&gt;安全-&gt;更多安全设置-&gt;加密和凭据-&gt;从存储设备安装（后续安装后，就会在用户平凭据中看到），然后选择刚刚下载的凭据加入，文件名选择自己知道</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">3、如果不用，需要取消WLAN的高级选项为【无】</span><br><span class="hljs-bullet">-</span> <span class="hljs-string">6、选中WLAN，长按连接的WALN，选择【修改网络】。高级选项，代理选择【手动】。输入服务器主机名--&gt;电脑的ip地址(172.18.10.70)、服务器端口号（8888）--&gt; （点击【Proxy】–&gt;【Proxy Settings】我们在设置下端口号，默认即可，具体视自己电脑环境设置）</span><br><br></code></pre></td></tr></table></figure><p>开始打开手机调试把，监听到对应的地址</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>垃圾桶--专治各种不开心</title>
+    <link href="/2023/04/13/%E5%9E%83%E5%9C%BE%E6%A1%B6/"/>
+    <url>/2023/04/13/%E5%9E%83%E5%9C%BE%E6%A1%B6/</url>
+    
+    <content type="html"><![CDATA[<p>垃圾鬼东西</p><h3 id="笔录"><a href="#笔录" class="headerlink" title="笔录"></a>笔录</h3><p>奋斗是件幸福的事</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Markdown简单语法</title>
     <link href="/2023/04/12/Markdown/"/>
     <url>/2023/04/12/Markdown/</url>
