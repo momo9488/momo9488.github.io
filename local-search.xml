@@ -4,11 +4,167 @@
   
   
   <entry>
-    <title>柜内灯小程序</title>
-    <link href="/2023/04/29/%E6%9F%9C%E5%86%85%E7%81%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    <url>/2023/04/29/%E6%9F%9C%E5%86%85%E7%81%AF%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
+    <title></title>
+    <link href="/2024/04/17/clash%E7%BF%BB%E5%A2%99/"/>
+    <url>/2024/04/17/clash%E7%BF%BB%E5%A2%99/</url>
     
-    <content type="html"><![CDATA[<h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs dns"><span class="hljs-number">1</span>、小程序代码位置：E:\小程序物联网开发\wx_demo\demo<br><span class="hljs-number">2</span>、运行虚拟设备：E:\小程序物联网开发\tencentcloud_iot_device_demo-windows-<span class="hljs-number">20230426</span>-<span class="hljs-number">2</span>a646b47cc8f42a5a7b8112c<span class="hljs-number">5f071350</span>\<span class="hljs-number">20230426</span>-<span class="hljs-number">2</span>a646b47cc8f42a5a7b8112c<span class="hljs-number">5f071350</span>\tencentcloud_iot_device_demo-windows<br>   运行run.bat就会开启设备虚拟<br></code></pre></td></tr></table></figure><h3 id="小程序运行方法"><a href="#小程序运行方法" class="headerlink" title="小程序运行方法"></a>小程序运行方法</h3><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ada"><span class="hljs-number">1</span>、云函数每次修改，都需要在该函数右键选择<span class="hljs-comment">--》上传并部署（不上传node_module）</span><br><span class="hljs-number">2</span>、<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/12/25/vue3/"/>
+    <url>/2023/12/25/vue3/</url>
+    
+    <content type="html"><![CDATA[<h3 id="学习视频"><a href="#学习视频" class="headerlink" title="学习视频"></a>学习视频</h3><p><a href="https://www.bilibili.com/video/BV1Za4y1r7KE/?p=60&spm_id_from=pageDriver&vd_source=d089cf3fa472afb9fc2615b1cfc081f3">地址</a></p><pre><code class="hljs">1、vite-plugin-vue-setup-extend2、volar插件可以解决ref变量必须使用.value问题3、ref能处理对象跟基本类型，reactive只能处理对象。ref处理对象的底层也是使用reactive4、想整体修改reactive所定义的数据，需要使用Objece.assign()5、toRefs与toRef6、watch（谁--》可以是写对象，(newValue,oldValue),&#123;deep:true,immediate:true&#125;）7、reactive定义的属性，watch监听是深度监听，且不能关闭的8、watchEffect,灵活度高，不需要指明监听谁9、组件标签中，子给父的值defineExpose10、defineProps([])、defineProps&lt;&gt;()、whitDefaults(defineProps&lt;&gt;(),&#123;&#125;)11、hooks，文件都需要以use开头12、nanoid生成id工具1313、pinia。变更方法1）直接修改2）$patch 3)actions--&gt;主要用于复用14、pinia中的storeToRefs、$subscribe()-&gt;数据变化的订阅监听15、$event、defineEmits16、订阅发布（总线）：mitt，pinia17、$attrs18、defineExpose、$refs、$parent19、provide与inject向后代提供数据20、默认插槽、具名插槽、作用域插槽（父亲想要数据，但是数据在孩子那）21、shallowRef、shallowReactive22、readonly、shallowReadonly23、toRaw（不是响应式）\markRaw(永远不会是响应式数据)</code></pre>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/12/12/%E7%A1%AC%E4%BB%B6/"/>
+    <url>/2023/12/12/%E7%A1%AC%E4%BB%B6/</url>
+    
+    <content type="html"><![CDATA[<p>打开sscom</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/11/16/%E5%A5%BD%E7%9C%8B%E7%9A%84html/"/>
+    <url>/2023/11/16/%E5%A5%BD%E7%9C%8B%E7%9A%84html/</url>
+    
+    <content type="html"><![CDATA[<h2 id="好看的雨滴"><a href="#好看的雨滴" class="headerlink" title="好看的雨滴"></a>好看的雨滴</h2><p><a href="%5B%E9%93%BE%E6%8E%A5%E7%9A%84%E5%9C%B0%E5%9D%80%E4%BE%8B%E5%A6%82https://www.baidu.com/%5D(https://juejin.cn/post/7270648629378367528)">地址</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Vue.js + Electron 炸裂组合，打造跨平台桌面应用</title>
+    <link href="/2023/10/09/%E6%A1%8C%E9%9D%A2%E7%AB%AF%E5%BA%94%E7%94%A8/"/>
+    <url>/2023/10/09/%E6%A1%8C%E9%9D%A2%E7%AB%AF%E5%BA%94%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Vue-js-Electron"><a href="#Vue-js-Electron" class="headerlink" title="Vue.js + Electron"></a>Vue.js + Electron</h3><h1 id="vue-js是一中流行的js框架，可以用于构建动态的用户界面"><a href="#vue-js是一中流行的js框架，可以用于构建动态的用户界面" class="headerlink" title="vue.js是一中流行的js框架，可以用于构建动态的用户界面."></a>vue.js是一中流行的js框架，可以用于构建动态的用户界面.</h1><h1 id="Electron是一个开源框架，用于构建跨平台的桌面应用程序"><a href="#Electron是一个开源框架，用于构建跨平台的桌面应用程序" class="headerlink" title="Electron是一个开源框架，用于构建跨平台的桌面应用程序."></a>Electron是一个开源框架，用于构建跨平台的桌面应用程序.</h1>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2023/07/31/npm/"/>
+    <url>/2023/07/31/npm/</url>
+    
+    <content type="html"><![CDATA[<p>npm cache clean –force</p><h2 id="rimraf"><a href="#rimraf" class="headerlink" title="rimraf"></a>rimraf</h2><h1 id="功能：用来快速删除node-modules"><a href="#功能：用来快速删除node-modules" class="headerlink" title="功能：用来快速删除node_modules"></a>功能：用来快速删除node_modules</h1><h1 id="用法：rimraf-node-modules"><a href="#用法：rimraf-node-modules" class="headerlink" title="用法：rimraf node_modules"></a>用法：rimraf node_modules</h1><h2 id="npm的hekr配置"><a href="#npm的hekr配置" class="headerlink" title="npm的hekr配置"></a>npm的hekr配置</h2><h1 id="http-npm-hekr-me"><a href="#http-npm-hekr-me" class="headerlink" title="http://npm.hekr.me/"></a><a href="http://npm.hekr.me/">http://npm.hekr.me/</a></h1>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Electron+Vue3+Vite搭建一个桌面应用</title>
+    <link href="/2023/07/29/Electron+Vue3+Vite%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/"/>
+    <url>/2023/07/29/Electron+Vue3+Vite%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Electron"><a href="#Electron" class="headerlink" title="Electron"></a>Electron</h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>跨端开发</title>
+    <link href="/2023/06/12/Flutter/"/>
+    <url>/2023/06/12/Flutter/</url>
+    
+    <content type="html"><![CDATA[<h2 id="flutter"><a href="#flutter" class="headerlink" title="flutter"></a>flutter</h2><p>JsBridge：依赖于 WebView 的用于在 JavaScript 与原生之间通信并实现了某种消息传输协议的工具称之为 WebView JavaScript Bridge</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>跨多端开发Taro</title>
+    <link href="/2023/05/17/%E8%B7%A8%E7%AB%AF%E5%BC%80%E5%8F%91Taro/"/>
+    <url>/2023/05/17/%E8%B7%A8%E7%AB%AF%E5%BC%80%E5%8F%91Taro/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Taro资料"><a href="#Taro资料" class="headerlink" title="Taro资料"></a>Taro资料</h3><p><a href="https://docs.taro.zone/docs/">官网</a></p><h2 id="生成桌面端"><a href="#生成桌面端" class="headerlink" title="生成桌面端"></a>生成桌面端</h2><h3 id="Donut"><a href="#Donut" class="headerlink" title="Donut"></a>Donut</h3><p><a href="https://dev.weixin.qq.com/docs/donut/">官网</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>好玩有帮助的软件及插件等应用</title>
+    <link href="/2023/05/11/%E8%BD%AF%E4%BB%B6%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
+    <url>/2023/05/11/%E8%BD%AF%E4%BB%B6%E5%8F%8A%E5%BA%94%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Everything"><a href="#Everything" class="headerlink" title="Everything"></a>Everything</h2><p><a href="https://www.voidtools.com/zh-cn/">Everything下载地址</a><br>功能：<br>    用于搜索电脑中的文件及文件夹位置<br>快捷键：<br>    工具–选项–显示窗口快捷键（ALT+K）</p><h2 id="Process思维导图"><a href="#Process思维导图" class="headerlink" title="Process思维导图"></a>Process思维导图</h2><p><a href="https://www.processon.com/">下载地址</a></p><h2 id="印象笔记"><a href="#印象笔记" class="headerlink" title="印象笔记"></a>印象笔记</h2><h2 id="live-sass-compiler"><a href="#live-sass-compiler" class="headerlink" title="live sass compiler"></a>live sass compiler</h2><p>功能：将.scss文件转换为.css文件并在指定目录中。直接在html中引入.css的位置即可</p><h2 id="截图工具"><a href="#截图工具" class="headerlink" title="截图工具"></a>截图工具</h2><h1 id="Snipaste"><a href="#Snipaste" class="headerlink" title="Snipaste"></a>Snipaste</h1><p>使用说明：需要先打开应用，才能使用。快捷键是F1，F3黏贴<br><a href="https://apps.microsoft.com/detail/9P1WXPKB68KX?rtc=1&hl=zh-cn&gl=CN">安装地址</a><br><a href="https://docs.snipaste.com/zh-cn/">功能指南</a></p><h2 id="模拟请求工具"><a href="#模拟请求工具" class="headerlink" title="模拟请求工具"></a>模拟请求工具</h2><h1 id="Apifox、Apipost"><a href="#Apifox、Apipost" class="headerlink" title="Apifox、Apipost"></a>Apifox、Apipost</h1>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Node</title>
+    <link href="/2023/05/08/Node%E6%8A%98%E8%85%BE/"/>
+    <url>/2023/05/08/Node%E6%8A%98%E8%85%BE/</url>
+    
+    <content type="html"><![CDATA[<h2 id="Node中文网"><a href="#Node中文网" class="headerlink" title="Node中文网"></a>Node中文网</h2><p><a href="https://nodejs.cn/api/">https://nodejs.cn/api/</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Ai</title>
+    <link href="/2023/05/04/Ai/"/>
+    <url>/2023/05/04/Ai/</url>
+    
+    <content type="html"><![CDATA[<h2 id="openai"><a href="#openai" class="headerlink" title="openai"></a>openai</h2><p><a href="https://chat.openai.com/auth/login">官网地址</a></p><h2 id="虚拟手机号地址"><a href="#虚拟手机号地址" class="headerlink" title="虚拟手机号地址"></a>虚拟手机号地址</h2><p><a href="https://sms-activate.org/getNumber#">https://sms-activate.org/getNumber#</a></p><h2 id="文言一心"><a href="#文言一心" class="headerlink" title="文言一心"></a>文言一心</h2><h2 id="不用开科学上网办法"><a href="#不用开科学上网办法" class="headerlink" title="不用开科学上网办法"></a>不用开科学上网办法</h2><ul><li>weTab</li><li>VBot(好像要充值点钱)</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>物联网小程序</title>
+    <link href="/2023/04/29/%E7%89%A9%E8%81%94%E7%BD%91%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <url>/2023/04/29/%E7%89%A9%E8%81%94%E7%BD%91%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
+    
+    <content type="html"><![CDATA[<h3 id="文档地址"><a href="#文档地址" class="headerlink" title="文档地址"></a>文档地址</h3><p><a href="https://github.com/tencentyun/qcloud-documents/blob/master/product/%E7%89%A9%E8%81%94%E7%BD%91/%E7%89%A9%E8%81%94%E7%BD%91%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0/%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/%E8%87%AA%E4%B8%BB%E5%93%81%E7%89%8C%E5%B0%8F%E7%A8%8B%E5%BA%8F/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.md">开源代码地址</a><br><a href="https://console.cloud.tencent.com/iotexplorer">云服务物联网开发平台</a></p><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs dns"><span class="hljs-number">1</span>、小程序代码位置：E:\小程序物联网开发\wx_demo\demo<br><span class="hljs-number">2</span>、运行虚拟设备：E:\小程序物联网开发\tencentcloud_iot_device_demo-windows-<span class="hljs-number">20230426</span>-<span class="hljs-number">2</span>a646b47cc8f42a5a7b8112c<span class="hljs-number">5f071350</span>\<span class="hljs-number">20230426</span>-<span class="hljs-number">2</span>a646b47cc8f42a5a7b8112c<span class="hljs-number">5f071350</span>\tencentcloud_iot_device_demo-windows<br>   运行run.bat就会开启设备虚拟<br>目前设置开启关闭设备，会出现订阅消息<br></code></pre></td></tr></table></figure><h3 id="小程序运行方法"><a href="#小程序运行方法" class="headerlink" title="小程序运行方法"></a>小程序运行方法</h3><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs ada"><span class="hljs-number">1</span>、云函数每次修改，都需要在该函数右键选择<span class="hljs-comment">--》上传并部署（不上传node_module）</span><br><span class="hljs-number">2</span>、<br><br></code></pre></td></tr></table></figure>]]></content>
     
     
     
@@ -73,7 +229,7 @@
     <link href="/2023/04/11/Ngnix%E9%83%A8%E7%BD%B2%E8%BF%90%E8%A1%8C/"/>
     <url>/2023/04/11/Ngnix%E9%83%A8%E7%BD%B2%E8%BF%90%E8%A1%8C/</url>
     
-    <content type="html"><![CDATA[<h3 id="Ngnix下载"><a href="#Ngnix下载" class="headerlink" title="Ngnix下载"></a>Ngnix下载</h3><p>官方网站：<a href="http://nginx.org/en/download.html">http://nginx.org/en/download.html</a></p><h3 id="启动Ngnix"><a href="#启动Ngnix" class="headerlink" title="启动Ngnix"></a>启动Ngnix</h3><ul><li>直接双击nginx.exe，双击后一个黑色的弹窗一闪而过。</li><li>打开cmd命令窗口，切换到nginx目录下，输入命令 nginx.exe 或者 start nginx ，回车即可。</li></ul><h3 id="关闭nginx"><a href="#关闭nginx" class="headerlink" title="关闭nginx"></a>关闭nginx</h3><p>如果使用cmd命令窗口启动nginx，关闭cmd窗口是不能结束nginx进程的，可使用两种方法关闭nginx</p><ul><li>输入nginx命令 nginx -s stop(快速停止nginx) 或 nginx -s quit(完整有序的停止nginx)。</li></ul><h3 id="打包文件存放"><a href="#打包文件存放" class="headerlink" title="打包文件存放"></a>打包文件存放</h3><ul><li>文件放在html</li><li>nginx.conf下修改配置文件 root文件存放位置 listen端口</li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="Ngnix下载"><a href="#Ngnix下载" class="headerlink" title="Ngnix下载"></a>Ngnix下载</h3><p>官方网站：<a href="http://nginx.org/en/download.html">http://nginx.org/en/download.html</a></p><h3 id="启动Ngnix"><a href="#启动Ngnix" class="headerlink" title="启动Ngnix"></a>启动Ngnix</h3><ul><li>直接双击nginx.exe，双击后一个黑色的弹窗一闪而过。</li><li>打开cmd命令窗口，切换到nginx目录下，输入命令 nginx.exe 或者 start nginx ，回车即可。</li></ul><h3 id="关闭nginx"><a href="#关闭nginx" class="headerlink" title="关闭nginx"></a>关闭nginx</h3><p>如果使用cmd命令窗口启动nginx，关闭cmd窗口是不能结束nginx进程的，可使用两种方法关闭nginx</p><ul><li>输入nginx命令 nginx -s stop(快速停止nginx) 或 nginx -s quit(完整有序的停止nginx)。</li></ul><h3 id="打包文件存放"><a href="#打包文件存放" class="headerlink" title="打包文件存放"></a>打包文件存放</h3><ul><li>文件放在html(D:\ngnix\nginx-1.22.1\nginx-1.22.1\html)</li><li>nginx.conf下修改配置文件 root文件存放位置 listen端口</li><li>运行localhost:listen端口(<a href="http://localhost:90/">http://localhost:90</a>)</li></ul>]]></content>
     
     
     
