@@ -4,9 +4,35 @@
   
   
   <entry>
-    <title></title>
-    <link href="/2024/04/17/clash%E7%BF%BB%E5%A2%99/"/>
-    <url>/2024/04/17/clash%E7%BF%BB%E5%A2%99/</url>
+    <title>论NuxtJs之强大</title>
+    <link href="/2024/08/14/%E8%AE%BANuxtJs%E4%B9%8B%E5%BC%BA%E5%A4%A7/"/>
+    <url>/2024/08/14/%E8%AE%BANuxtJs%E4%B9%8B%E5%BC%BA%E5%A4%A7/</url>
+    
+    <content type="html"><![CDATA[<h2 id="入门学习网址"><a href="#入门学习网址" class="headerlink" title="入门学习网址"></a>入门学习网址</h2><p><a href="https://www.bilibili.com/video/BV1u84y1R7d1/?spm_id_from=333.337.search-card.all.click&vd_source=d089cf3fa472afb9fc2615b1cfc081f3">入门学习网址</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>有趣的js</title>
+    <link href="/2024/07/25/js/"/>
+    <url>/2024/07/25/js/</url>
+    
+    <content type="html"><![CDATA[<p><code>// 提取URL参数 let url=&#39;https://alibaba.com?a-1&amp;b=2&amp;c=3#hash&#39;; function queryURLParams(URL)let url = uRL.split(&#39;?&#39;)[1];const urlSearchParams =new URlSearchParams(url);const params =0bject.fromEntries(urlSearchParams.entries());     return params; console.log(queryURLParams(url));</code></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>智小金文档</title>
+    <link href="/2024/07/18/%E6%99%BA%E5%B0%8F%E9%87%91/"/>
+    <url>/2024/07/18/%E6%99%BA%E5%B0%8F%E9%87%91/</url>
     
     <content type="html"><![CDATA[]]></content>
     
@@ -17,7 +43,33 @@
   
   
   <entry>
-    <title></title>
+    <title>爬虫</title>
+    <link href="/2024/07/16/%E7%88%AC%E8%99%AB/"/>
+    <url>/2024/07/16/%E7%88%AC%E8%99%AB/</url>
+    
+    <content type="html"><![CDATA[<h3 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h3><p>爬虫作用主要是爬取网站中的数据</p><h3 id="参考网站"><a href="#参考网站" class="headerlink" title="参考网站"></a>参考网站</h3><p><a href="https://juejin.cn/post/7364607002826817576">https://juejin.cn/post/7364607002826817576</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>翻墙工具</title>
+    <link href="/2024/04/17/clash%E7%BF%BB%E5%A2%99/"/>
+    <url>/2024/04/17/clash%E7%BF%BB%E5%A2%99/</url>
+    
+    <content type="html"><![CDATA[<h2 id="clash"><a href="#clash" class="headerlink" title="clash"></a>clash</h2><h2 id="Charles-青花瓷用来抓包"><a href="#Charles-青花瓷用来抓包" class="headerlink" title="Charles 青花瓷用来抓包"></a>Charles 青花瓷用来抓包</h2>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>vue3学习</title>
     <link href="/2023/12/25/vue3/"/>
     <url>/2023/12/25/vue3/</url>
     
@@ -30,7 +82,7 @@
   
   
   <entry>
-    <title></title>
+    <title>硬件</title>
     <link href="/2023/12/12/%E7%A1%AC%E4%BB%B6/"/>
     <url>/2023/12/12/%E7%A1%AC%E4%BB%B6/</url>
     
@@ -43,7 +95,7 @@
   
   
   <entry>
-    <title></title>
+    <title>好看的html</title>
     <link href="/2023/11/16/%E5%A5%BD%E7%9C%8B%E7%9A%84html/"/>
     <url>/2023/11/16/%E5%A5%BD%E7%9C%8B%E7%9A%84html/</url>
     
@@ -69,11 +121,11 @@
   
   
   <entry>
-    <title></title>
+    <title>npm安装包玩法</title>
     <link href="/2023/07/31/npm/"/>
     <url>/2023/07/31/npm/</url>
     
-    <content type="html"><![CDATA[<p>npm cache clean –force</p><h2 id="rimraf"><a href="#rimraf" class="headerlink" title="rimraf"></a>rimraf</h2><h1 id="功能：用来快速删除node-modules"><a href="#功能：用来快速删除node-modules" class="headerlink" title="功能：用来快速删除node_modules"></a>功能：用来快速删除node_modules</h1><h1 id="用法：rimraf-node-modules"><a href="#用法：rimraf-node-modules" class="headerlink" title="用法：rimraf node_modules"></a>用法：rimraf node_modules</h1><h2 id="npm的hekr配置"><a href="#npm的hekr配置" class="headerlink" title="npm的hekr配置"></a>npm的hekr配置</h2><h1 id="http-npm-hekr-me"><a href="#http-npm-hekr-me" class="headerlink" title="http://npm.hekr.me/"></a><a href="http://npm.hekr.me/">http://npm.hekr.me/</a></h1>]]></content>
+    <content type="html"><![CDATA[<h2 id="npm-cache-clean-–force"><a href="#npm-cache-clean-–force" class="headerlink" title="npm cache clean –force"></a>npm cache clean –force</h2><h2 id="rimraf"><a href="#rimraf" class="headerlink" title="rimraf"></a>rimraf</h2><h1 id="功能：用来快速删除node-modules"><a href="#功能：用来快速删除node-modules" class="headerlink" title="功能：用来快速删除node_modules"></a>功能：用来快速删除node_modules</h1><h1 id="用法：rimraf-node-modules"><a href="#用法：rimraf-node-modules" class="headerlink" title="用法：rimraf node_modules"></a>用法：rimraf node_modules</h1><h2 id="npm的hekr配置"><a href="#npm的hekr配置" class="headerlink" title="npm的hekr配置"></a>npm的hekr配置</h2><h1 id="http-npm-hekr-me"><a href="#http-npm-hekr-me" class="headerlink" title="http://npm.hekr.me/"></a><a href="http://npm.hekr.me/">http://npm.hekr.me/</a></h1>]]></content>
     
     
     
@@ -216,7 +268,7 @@
     <link href="/2023/04/11/Github%E4%B8%8B%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
     <url>/2023/04/11/Github%E4%B8%8B%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><ul><li>GitHub账号</li><li>安装Git</li><li>安装NodeJS<br>创建仓库，格式必须为&lt;用户名&gt;.github.io</li></ul><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">npm <span class="hljs-keyword">install </span>-g hexo-cli<br><br>hexo -v<br><br>hexo init hexo-<span class="hljs-keyword">blog</span><br><span class="hljs-keyword"></span><br>cd hexo-<span class="hljs-keyword">blog</span><br><span class="hljs-keyword"></span><br>npm <span class="hljs-keyword">install</span><br><span class="hljs-keyword"></span><br>hexo clean<br><br>hexo g<br><br>hexo server<br></code></pre></td></tr></table></figure><p>浏览器访问 <a href="http://localhost:4000/">http://localhost:4000</a></p><h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h3><p><a href="https://github.com/fluid-dev/hexo-theme-fluid/releases">https://github.com/fluid-dev/hexo-theme-fluid/releases</a></p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs awk">cd hexo-blog<br><br>git clone https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/fluid-dev/</span>hexo-theme-fluid<span class="hljs-regexp">/releases themes/</span><span class="hljs-keyword">next</span><br><br><span class="hljs-regexp">//</span> 打开 _config.yml 文件 将主题修改为 <span class="hljs-keyword">next</span>(将主题文件地址放在themes下，theme更改为对应文件名)<br>theme: <span class="hljs-keyword">next</span><br></code></pre></td></tr></table></figure><h3 id="发布到GitHub-Pages"><a href="#发布到GitHub-Pages" class="headerlink" title="发布到GitHub Pages"></a>发布到GitHub Pages</h3><p>安装hexo-deployer-git</p><p>npm install hexo-deployer-git –save</p><p>修改根目录下的 _config.yml，配置 GitHub 相关信息</p><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">deploy:</span><br><span class="hljs-symbol">  type:</span> git<br><span class="hljs-symbol">  repo:</span> git@github.com:xxx/xxx.github.io.git<br><span class="hljs-symbol">  branch:</span> master<br></code></pre></td></tr></table></figure><p>部署到GitHub</p><p>hexo g -d</p><h3 id="部署到nginx"><a href="#部署到nginx" class="headerlink" title="部署到nginx"></a>部署到nginx</h3><ul><li>hexo g 生成静态文件</li><li>上传到nginx服务器</li><li>配置nginx访问地址</li></ul><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-section">server</span> &#123;<br>    <span class="hljs-attribute">listen</span>       <span class="hljs-number">80</span>;<br>    <span class="hljs-attribute">server_name</span>  <span class="hljs-number">127.0.0.1</span>;<br><br>    <span class="hljs-section">location</span> / &#123;<br>        <span class="hljs-attribute">root</span>  /data/www/blog;<br>        <span class="hljs-attribute">index</span>  index.html index.htm;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>快速、简洁且高效的博客框架</p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><ul><li>GitHub账号</li><li>安装Git</li><li>安装NodeJS<br>创建仓库，格式必须为&lt;用户名&gt;.github.io</li></ul><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">npm <span class="hljs-keyword">install </span>-g hexo-cli<br><br>hexo -v<br><br>hexo init hexo-<span class="hljs-keyword">blog</span><br><span class="hljs-keyword"></span><br>cd hexo-<span class="hljs-keyword">blog</span><br><span class="hljs-keyword"></span><br>npm <span class="hljs-keyword">install</span><br><span class="hljs-keyword"></span><br>hexo clean<br><br>hexo g<br><br>hexo server<br></code></pre></td></tr></table></figure><p>浏览器访问 <a href="http://localhost:4000/">http://localhost:4000</a></p><h3 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h3><p><a href="https://github.com/fluid-dev/hexo-theme-fluid/releases">https://github.com/fluid-dev/hexo-theme-fluid/releases</a></p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs awk">cd hexo-blog<br><br>git clone https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/fluid-dev/</span>hexo-theme-fluid<span class="hljs-regexp">/releases themes/</span><span class="hljs-keyword">next</span><br><br><span class="hljs-regexp">//</span> 打开 _config.yml 文件 将主题修改为 <span class="hljs-keyword">next</span>(将主题文件地址放在themes下，theme更改为对应文件名)<br>theme: <span class="hljs-keyword">next</span><br></code></pre></td></tr></table></figure><h3 id="发布到GitHub-Pages"><a href="#发布到GitHub-Pages" class="headerlink" title="发布到GitHub Pages"></a>发布到GitHub Pages</h3><p>安装hexo-deployer-git</p><p>npm install hexo-deployer-git –save</p><p>修改根目录下的 _config.yml，配置 GitHub 相关信息</p><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">deploy:</span><br><span class="hljs-symbol">  type:</span> git<br><span class="hljs-symbol">  repo:</span> git@github.com:xxx/xxx.github.io.git<br><span class="hljs-symbol">  branch:</span> master<br></code></pre></td></tr></table></figure><p>部署到GitHub</p><p>hexo g -d</p><h3 id="部署到nginx"><a href="#部署到nginx" class="headerlink" title="部署到nginx"></a>部署到nginx</h3><ul><li>hexo g 生成静态文件</li><li>上传到nginx服务器</li><li>配置nginx访问地址</li></ul><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-section">server</span> &#123;<br>    <span class="hljs-attribute">listen</span>       <span class="hljs-number">80</span>;<br>    <span class="hljs-attribute">server_name</span>  <span class="hljs-number">127.0.0.1</span>;<br><br>    <span class="hljs-section">location</span> / &#123;<br>        <span class="hljs-attribute">root</span>  /data/www/blog;<br>        <span class="hljs-attribute">index</span>  index.html index.htm;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
     
     
     
